@@ -346,12 +346,12 @@ def proceed_nextWindow(a,b):
                     coment = comment_entry.get()
                     s=sb.SMTP('smtp.gmail.com',587)
                     s.starttls()
-                    s.login('alumni.syss@gmail.com','computer_project')
+                    s.login('*****@gmail.com','*****')
                     msg = "Hey,\n --ALUMNI INFORMATION SYSTEM--\n My USER ID is "+user+"\n"+coment+"\nThanks"
                     
-                    receiver_list = ["sensanjana072@gmail.com","suprajakannan1987@gmail.com"]
+                    receiver_list = ["*******@gmail.com","*******@gmail.com"]
                     for receivers in receiver_list:
-                        s.sendmail('alumni.syss@gmail.com',receivers,msg)
+                        s.sendmail('*******@gmail.com',receivers,msg)
                     s.quit()
                     label_currdel=Label(windowC,text="Message sent Successfully",fg="black",font=("Copperplate Gothic",12,"bold"))
                     label_currdel.place(x=100,y=230)
@@ -377,7 +377,7 @@ def proceed_nextWindow(a,b):
                     import smtplib as sb
                     s=sb.SMTP('smtp.gmail.com',587)
                     s.starttls()
-                    s.login('alumni.syss@gmail.com','computer_project')
+                    s.login('****@gmail.com','******')
                     msg = msg_entry.get()
                     
                     cursor.execute("select e_mail from alumni_table")
@@ -386,7 +386,7 @@ def proceed_nextWindow(a,b):
                         user_mailList.append(i[0])
                     
                     for receivers in user_mailList:
-                        s.sendmail('alumni.syss@gmail.com',receivers,msg)
+                        s.sendmail('********@gmail.com',receivers,msg)
                     s.quit()
                     label_currdel=Label(windowE,text="Message sent Successfully",fg="black",font=("Copperplate Gothic",12,"bold"))
                     label_currdel.place(x=100,y=230)
