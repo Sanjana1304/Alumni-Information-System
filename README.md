@@ -7,7 +7,7 @@
 - This allows students to know about each other and their current activities.
 
 ### Languages and concepts used
-- Python(BackBone) with tkinter for clean user interface.
+- Python(BackBone) with tkinter for graphical user interface.
 - MySQL as Database
 
 ### Login Module
