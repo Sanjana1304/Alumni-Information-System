@@ -51,7 +51,7 @@ This module lets the admin to send any message/updates to all the users through 
 
 
 ### Contact Admin
-This module helps the alumnis and students to send any messages to the admin using E-mail.
+This module lets alumnis and students to send any requests/queries to the administrators through E-mail.
 
 ![Capture 2 2](https://user-images.githubusercontent.com/64159652/97807803-01217800-1c89-11eb-80da-e214f76560a1.PNG)
 
@@ -75,14 +75,12 @@ This module lets the admin as well as an Alumni to plan an event or a meeting by
 
 
 ### Friendship Calculator
-This module is designed only for the students to have fun with calculating the friendship score by enetering their name and their friend's name.
-
+This module is designed only for the students to have fun in the system. It predicts a friendship percentage along with a friendship status between the user and his/her friend.
 ![Capture 3 5](https://user-images.githubusercontent.com/64159652/97807577-9d4a7f80-1c87-11eb-8c42-5f4477f3e652.PNG)
 
 
 ### Do something good today
-This module is available for alumnis and students which generates good deeds to keep their depression away
-
+This module provides the students and alumni with a suggestion for a good deed to do on that day. Phrases specifying simple good actions pop up with the help of random function.
 ![Capture 2 9](https://user-images.githubusercontent.com/64159652/97807667-1518aa00-1c88-11eb-92ee-2339b5d8285a.PNG)
 
 
