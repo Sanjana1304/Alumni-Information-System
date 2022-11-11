@@ -1244,3 +1244,8 @@ login_button.place(x=160,y=650)
 #button used to register yourself to AIS community.
 reg_button=Button(window,text="Register",fg='white',bg='brown',relief=RIDGE,font=("arial",12,"bold"),width=18,command=Registration_form)
 reg_button.place(x=380,y=650)
+
+
+
+
+
